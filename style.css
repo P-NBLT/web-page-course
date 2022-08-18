@@ -1,0 +1,435 @@
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans";
+}
+
+:root {
+  --height: 1845px;
+  --width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 165px 0 165.79px;
+}
+
+.header img {
+  width: 111.17px;
+  height: 27.68px;
+}
+
+.header button:hover {
+  background-color: #666ca3;
+  opacity: 0.9;
+}
+
+.header button {
+  width: 167px;
+  height: 56px;
+  border: none;
+  background-color: #13183f;
+  color: white;
+  border-radius: 30px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.sectionTop {
+  position: absolute;
+  top: 252px;
+  top: calc(var(--width) * 0.175);
+  left: 165px;
+  /* left: 11.458%; */
+  /* width: 457px; */
+  width: 33%;
+  height: 359px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 70.56px;
+  /* line-height: 39.275%; */
+  color: #13183f;
+  margin: 0;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869a;
+}
+
+.box1 {
+  margin: 29px 0 40px 0;
+}
+
+.sectionTop button {
+  width: 167px;
+  height: 63px;
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.womenPicContainer {
+  position: absolute;
+  top: -147.21px;
+  left: 50.625%;
+  width: 49.375%;
+  /* max-width: 716px; */
+  height: 936px;
+  overflow: hidden;
+}
+
+.womenPicContainer img {
+  height: auto;
+  width: 147.323%;
+  max-width: 1036px;
+
+  min-height: 885px;
+}
+
+.tablet {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+.coursesContainerMaster {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 837px;
+  left: 0;
+  width: 100%;
+  height: 888px;
+  background-image: linear-gradient(#ffffff, #f0f1ff);
+}
+
+.coursesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1110px;
+  height: 748px;
+  column-gap: 2.702%;
+  row-gap: 7.4866%;
+}
+
+.courseBox {
+  /* width: 350px; */
+  width: 31.53%;
+  /* height: 322px; */
+  height: 46.25%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.courseBoxTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* width: 286px; */
+  width: 81.714%;
+  /* height: 218px; */
+  height: 63%;
+  margin: 32px 32px 40px 32px;
+}
+
+.courseBoxTextContainer > * {
+  margin: 0;
+}
+
+.popular {
+  font-size: 32px;
+  line-height: 40px;
+  color: white;
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+}
+
+.popular p {
+  /* width: 286px; */
+  width: 81.714%;
+  margin: 64px 32px 138px 32px;
+}
+
+.courseBox h3 {
+  font-size: 24px;
+  line-height: 30.24px;
+  color: #13183f;
+}
+
+.courseBox img {
+  width: 56px;
+  height: 56px;
+  margin: -24px 0 0 32px;
+}
+
+.started {
+  color: #f74780;
+  font-weight: 700;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1725px;
+  /* top: 206.83vh; */
+  height: 120px;
+  width: 100%;
+  background-color: #13183f;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 77.028%;
+}
+
+footer img {
+  width: 111.17px;
+  height: 27.68px;
+}
+
+footer button {
+  width: 167px;
+  height: 56px;
+  border-radius: 30px;
+  border: none;
+  background-image: linear-gradient(#4851ff, #f02aa6);
+  color: white;
+  font-size: 18px;
+}
+
+button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 24px 40px 0 39px;
+  }
+
+  .header img {
+    width: 89px;
+    height: 28px;
+  }
+
+  .header button {
+    width: 140px;
+    height: 48px;
+  }
+
+  .sectionTop {
+    /* width: 398px; */
+    width: 51.82%;
+    min-height: 284px;
+    top: 171px;
+    left: 39px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50.4px;
+    /* width: 326px; */
+    width: 100%;
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .box1 {
+    width: 100%;
+    margin: 25px 0 24px 0;
+    /* width: 398px; */
+  }
+
+  .sectionTop button {
+    height: 56px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .womenPicContainer {
+    /* width: 398px; */
+    width: 52.2%;
+
+    top: -93.13px;
+    /* left: 370px; */
+    left: 48.177%;
+  }
+
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: block;
+  }
+
+  .womenPicContainer img {
+    width: 174.623%;
+    min-height: 728.25px;
+  }
+
+  .coursesContainerMaster {
+    top: 641px;
+    width: 100%;
+    height: 999px;
+  }
+
+  .coursesContainer {
+    /* width: 689px; */
+    justify-content: center;
+    min-height: 913px;
+    /* column-gap: 10px; */
+    column-gap: 1.32%;
+    /* row-gap: 32px; */
+    row-gap: 3.2%;
+  }
+  .courseBox {
+    /* width: 339px; */
+    width: 44.14%;
+    /* height: 259px; */
+    height: 28.37%;
+  }
+
+  .popular {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  footer {
+    top: 1640px;
+  }
+
+  .footerContainer {
+    width: 689px;
+    height: 48px;
+  }
+
+  footer img {
+    width: 89px;
+    height: 28px;
+  }
+
+  footer button {
+    width: 140px;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    margin: 16px 16px 0 16px;
+    width: 91.466%;
+  }
+
+  .header img {
+    width: 89px;
+    height: 28px;
+  }
+
+  .header button {
+    width: 140px;
+    height: 48px;
+  }
+
+  .sectionTop {
+    top: 102px;
+    left: 16px;
+    margin-right: 15px;
+    width: 91.466%;
+  }
+
+  h1 {
+    width: 100%;
+    font-weight: 800;
+  }
+
+  .box1 {
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 0;
+  }
+
+  .womenPicContainer {
+    top: 420px;
+    left: -33px;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .womenPicContainer img {
+    width: 120%;
+    height: 400px;
+    min-height: 400px;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .coursesContainerMaster {
+    top: 800px;
+    height: 1695px;
+  }
+
+  .coursesContainer {
+    width: 100%;
+    justify-content: center;
+    row-gap: 40px;
+  }
+
+  .popular {
+    width: 91.46%;
+    height: 120px;
+    flex-direction: row;
+  }
+
+  .popular p {
+    margin: auto;
+  }
+
+  .courseBox {
+    width: 91.46%;
+  }
+
+  footer {
+    top: 2495px;
+    width: 100%;
+  }
+
+  .footerContainer {
+    width: 91.46%;
+    height: 48px;
+  }
+}
